@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import jacket from '../images/jacket.jpg'
-import betterLuck from '../images/betterLuck.jpg';
+ 
 
 // eslint-disable-next-line react/prop-types
 const FinalScore = ({ score, currentQuestionIndex }) => {
