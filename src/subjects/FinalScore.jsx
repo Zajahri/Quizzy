@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import jacket from '../images/jacket.jpg'
- 
+import betterLuck from '../images/betterLuck.jpg';
 
 // eslint-disable-next-line react/prop-types
 const FinalScore = ({ score, currentQuestionIndex }) => {
@@ -14,7 +14,7 @@ const FinalScore = ({ score, currentQuestionIndex }) => {
         <Link to="/">Play again</Link>
       </div>
        <div className="pt-10" >
-        {score <= ((currentQuestionIndex + 1) / 2) ? "Better Luck next Time" : <img src={jacket} className="h-72" alt="" /> }
+        {score <= ((currentQuestionIndex + 1) / 2) ? <img src={betterLuck} className="h-72" alt="" /> : <img src={jacket} className="h-72" alt="" /> }
         
        </div>
    
