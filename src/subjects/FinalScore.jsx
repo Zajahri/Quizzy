@@ -14,7 +14,7 @@ const FinalScore = ({ score, currentQuestionIndex }) => {
         <Link to="/">Play again</Link>
       </div>
        <div className="pt-10" >
-        {score <= ((currentQuestionIndex + 1) / 2) ? <img src={betterLuck} className="h-72" alt="" /> : <img src={jacket} className="h-72" alt="" /> }
+        {score <= ((currentQuestionIndex + 1) / 2) ? "Better Luck next Time" : <img src={jacket} className="h-72" alt="" /> }
         
        </div>
    
